@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Chomsky";
+  src: url(../fonts/Chomsky.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  padding-left: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/4c030ac1ff0ea3127fc18ac545974b1d.jpg);
+  margin: auto;
+  right: 0;
+  left: 0;
+  width: 50%;
+}
+section .titulo {
+  font-size: 30px;
+  font-family: "Chomsky";
+  text-align: center;
+  width: 90%;
+}
+section .division {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  height: 86vh;
+  width: 26%;
+}
+section .division .titulo-1 {
+  font-weight: bold;
+}
+section .division .titulo-1 {
+  font-size: 25px;
+}
+section .division .img-1, section .division .img-2, section .division .img2-1, section .division .img2-2, section .division .img2-4 {
+  border: 1px solid black;
+  width: 100%;
+}
+section .division .img2-3 {
+  width: 100%;
+}
+section .division p {
+  font-size: 13px;
+}
+section .division .subtitulos {
+  font-weight: bold;
+  font-size: 15px;
+}
+section .division .img-cus {
+  position: absolute;
+}
+
+.img-final {
+  margin-left: 8%;
+  height: 60px;
+  width: 80%;
+}
+
+.primer-img {
+  width: 50%;
+}
+
+.segunda-img {
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav {
+    font-weight: bold;
+    background-color: rgb(93, 93, 240);
+
+    .logo {
+        font-style: italic;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+    .img-logo {
+        margin-left: 15px;
+        width: 80px;
+        height: auto;
+    }
+
+    .navbar-collapse {
+        margin-right: 50px;
+        flex-direction: row-reverse;
+        text-align: center;
+
+        li {
+            a {
+                font-style: italic;
+                color: rgb(255, 255, 255);
+                margin: 0 10px;
+                font-size: 20px;
+                border-radius: 8px;
+            }
+
+            a:hover {
+                color: white;
+                background-color: rgba(0, 0, 0, 0.267);
+            }
+        }
+    }
+
+}
+
+.div-2-section1 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+    h3 {
+        font-weight: bold;
+        font-size: 35px;
+        font-style: italic;
+    }
+
+    .div-img-motos {
+        flex-wrap:wrap;
+        display: flex;
+    }
+
+    .moto-azul {
+        width: 80px;
+        height: auto;
+    }
+
+    button {
+        margin-left: auto;
+        font-style: italic;
+        border: none;
+        background-color: blue;
+        color: white;
+        align-self: center;
+        padding: 8px 30px;
+    }
+
+    button:hover {
+        background-color: rgba(70, 27, 226, 0.651);
+    }
+}
+
+footer{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .img-footer{
+        width: 50px;
+        height: auto;
+    }
+    .texto-footer{
+        align-items: center;
+        font-style: italic;
+        font-size: 20px;
+        h3{
+            margin: 0px 15px;
+        }
+    }
+    .redes{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

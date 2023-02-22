@@ -90,7 +90,7 @@ nav ul li a {
 }
 
 .img-eva {
-  width: 650px;
+  width: 100%;
   height: auto;
 }
 
@@ -122,33 +122,29 @@ nav ul li a {
   }
 }
 @media (max-width: 756px) {
-  .img-eva {
-    width: 480px;
-    height: auto;
-  }
   .menu-nav {
     display: none;
   }
   #click-menu {
     display: inline-block;
-    margin-left: 65%;
+    margin-left: 50%;
   }
 }
 @media (max-width: 650px) {
   #click-menu {
     display: inline-block;
-    margin-left: 60%;
+    margin-left: 40%;
   }
 }
 @media (max-width: 550px) {
   #click-menu {
     display: inline-block;
-    margin-left: 50%;
+    margin-left: 30%;
   }
 }
 @media (max-width: 450px) {
   #click-menu {
     display: inline-block;
-    margin-left: 40%;
+    margin-left: 20%;
   }
 }/*# sourceMappingURL=style.css.map */

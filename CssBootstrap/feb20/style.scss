@@ -91,7 +91,7 @@ nav{
 }
 
 .img-eva{
-    width: 650px;
+    width: 100%;
     height: auto;
 }
 
@@ -129,10 +129,6 @@ nav{
 
 
 @media (max-width: 756px) {
-    .img-eva{
-        width: 480px;
-        height:auto;
-    }
 
     .menu-nav{
         display: none;
@@ -140,7 +136,7 @@ nav{
         
     #click-menu{
         display: inline-block;
-        margin-left: 65%;
+        margin-left: 50%;
     }
 
 }    
@@ -148,20 +144,20 @@ nav{
 @media (max-width: 650px){
 #click-menu{
     display: inline-block;
-    margin-left: 60%;
+    margin-left: 40%;
 }
 }
 
 @media (max-width: 550px){
     #click-menu{
         display: inline-block;
-        margin-left: 50%;
+        margin-left: 30%;
     }
     }
 
     @media (max-width: 450px){
         #click-menu{
             display: inline-block;
-            margin-left: 40%;
+            margin-left: 20%;
         }
         }

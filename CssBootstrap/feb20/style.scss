@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-style: italic;
+}
+
+body{
+    height: 100vh;
+}
+nav{
+    padding: 0px 10px;
+    background-color: purple;
+    height: 65px;
+    .logo{
+        font-weight: bold;
+        color: white;
+        line-height: 2;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    ul{
+        margin-right: 50px;
+        display: flex;
+        float: right;
+        li{
+            line-height: 4;
+            a{
+                font-weight: bold;
+                color: white;
+                padding: 10px;
+            }
+        }
+    }
+
+}
+
+.principal{
+    flex-wrap: wrap;
+    display: flex;
+    background-color: rgba(97, 0, 189, 0.925);
+    height: 90%;
+}
+
+.hijo1{
+    display: flex;
+    width: 50%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    .hijo1-1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content:end;
+        width: 55%;
+        height: 75%;
+        h3{
+            color: white;
+            font-size: 45px;
+        }
+        button{
+            border-radius: 5px;
+            border: none;
+            background-color: purple;
+            font-size: 20px;
+            color: white;
+            width: 250px;
+            height: 40px;
+        }
+        button:hover{
+            background-color: rgba(128, 0, 128, 0.699);
+        }
+    }
+    
+}
+
+.hijo2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+    height: auto;
+    .hijo2-1{
+        justify-content: end;
+        display: flex;
+        width: 90%;
+        height: 75%;
+    }
+}
+
+.img-eva{
+    width: 650px;
+    height: auto;
+}
+
+#disparador-menu{
+    display: none;
+}
+#click-menu{
+    display: none;
+    color: white;
+}
+
+
+#disparador-menu:checked + nav{
+    .menu-nav{
+        text-align: center;
+        height: auto;
+        left: 0;
+        width: 100%;
+        position: absolute;
+        background-color: rgba(87, 1, 90, 0.795);
+        display: block;
+    }
+}
+
+@media (max-width: 1100px) {
+
+.hijo1, .hijo2{
+    width: 100%;
+}
+.hijo1-1, .hijo2-1{
+    width: 50%;
+}
+
+}
+
+
+@media (max-width: 756px) {
+    .img-eva{
+        width: 480px;
+        height:auto;
+    }
+
+    .menu-nav{
+        display: none;
+    }
+        
+    #click-menu{
+        display: inline-block;
+        margin-left: 65%;
+    }
+
+}    
+
+@media (max-width: 650px){
+#click-menu{
+    display: inline-block;
+    margin-left: 60%;
+}
+}
+
+@media (max-width: 550px){
+    #click-menu{
+        display: inline-block;
+        margin-left: 50%;
+    }
+    }
+
+    @media (max-width: 450px){
+        #click-menu{
+            display: inline-block;
+            margin-left: 40%;
+        }
+        }
